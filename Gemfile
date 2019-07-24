@@ -51,6 +51,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
+  gem "factory_bot_rails"
 end
 
 gem 'popper_js', '~> 1.11.1'
@@ -63,6 +64,8 @@ end
 gem 'simple_form'
 
 gem 'devise'
+
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
