@@ -65,6 +65,12 @@ gem 'simple_form'
 
 gem 'devise'
 
+gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
+
+gem "figaro"
+
+gem "fog-aws"
+
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
